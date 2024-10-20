@@ -1,0 +1,164 @@
+.footer {
+  background-color: #edf5e1;
+  padding: 40px 20px;
+  color: #333;
+  font-family: Arial, sans-serif;
+  height: 70vh;
+  background-size: cover;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  padding: 0 20px;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 0 15px;
+  min-width: 220px;
+  margin-bottom: 20px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.footer-section p {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: #666;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  font-size: 14px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  color: #666;
+  transition: color 0.3s ease;
+}
+
+.footer-section ul li:hover {
+  color: #333;
+}
+
+.subscribe-input {
+  display: flex;
+  margin-top: 15px;
+  flex-direction: column;
+}
+
+.subscribe-input input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  flex: 1;
+  font-size: 14px;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+.subscribe-input button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  width: 100px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.subscribe-input button:hover {
+  background-color: #45a049;
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.social-icons i {
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s ease;
+
+  margin: 10px;
+}
+
+.social-icons i:hover {
+  color: #4caf50;
+}
+
+.footer-copyright {
+  flex: 1;
+  font-size: 12px;
+  color: #666;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .footer-info,
+  .social-icons {
+    margin-bottom: 20px;
+  }
+
+  .footer-copyright {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+.control-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: end;
+  font-size: 40px;
+  z-index: 1000;
+}
+
+.control-icon i {
+  margin-bottom: 10px;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s;
+  font-size: 30px;
+}
+
+.control-icon i:hover {
+  color: #28a745;
+}
+.whatsapp {
+  height: 60px;
+  border-radius: 40px;
+  margin-bottom: 10px;
+}
