@@ -1,3 +1,38 @@
+# E-commerce Product Listing Page
+
+This is a React-based e-commerce plants product listing page built. It displays a list of products, allows users to add items to the cart, and provides pagination to navigate through multiple product listings. Users can also view a modal for confirming product additions to the cart.
+
+## Features
+
+- **Product List**: Displays a list of products with details like name, description, rating, price, and image.
+- **Add to Cart**: Users can add products to the cart, with a modal popup for confirmation.
+- **View Product**: Users can navigate to a custom 'Thank You' page when they click the "View Product" button.
+- **Pagination**: Allows users to navigate between pages of product listings.
+- **Nursery Section**: Displays a separate list of nurseries with a grid layout.
+
+## Demo
+
+You can access the live demo of the project on platforms like Vercel, Netlify, or AWS Amplify once deployed.
+
+## Technologies Used
+
+- **React**: Frontend library for building the user interface.
+- **React Router**: Used for navigation between the pages (e.g., product list, cart, and thank you page).
+- **React Hooks**: Used for managing state (e.g., modal open/close state, cart management).
+- **CSS**: Custom CSS for styling the components.
+- **Figma**: Design mockup used for creating the UI components.
+- **Mock Data**: Sample product and nursery data used to populate the product listing.
+
+## Installation and Setup
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/AadhiVenkatesh/Plants-e-commerce.git
+   cd frontend
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
